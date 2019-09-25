@@ -5,7 +5,7 @@
 ADD_LIBRARY(exts INTERFACE)
 
 add_subdirectory(mathlibrary)
-TARGET_LINK_LIBRARIES(mathlibrary PUBLIC exts)
+
 
 ADD_SUBDIRECTORY(glew)
 SET_TARGET_PROPERTIES(glew PROPERTIES FOLDER "exts/glew")
